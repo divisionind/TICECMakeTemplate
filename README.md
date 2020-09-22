@@ -19,3 +19,8 @@ You may upload your programs to your calculator using
 #### Emulating / Debugging
 [CEmu](https://github.com/CE-Programming/CEmu) is a TI-84 Plus CE / TI-83 Premium CE calculator emulator
 with debugger and other functionality which you can use to test your programs.
+
+### Donate
+- BTC: `bc1qhr43elqs4hduv6ls0893zup7t6mlmlh8qmcl30`
+- ETH: `0x1bdA7dB6484802DFf4945edc52363B4A8FAcb470`
+- ETC: `0x4a368bb4cd854f650169ce207268c303ffecafb2`
