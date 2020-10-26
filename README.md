@@ -21,6 +21,6 @@ You may upload your programs to your calculator using
 with debugger and other functionality which you can use to test your programs.
 
 ### Donate
-- BTC: `bc1qhr43elqs4hduv6ls0893zup7t6mlmlh8qmcl30`
+- XMR: `83vzgeeKebLh6pj2YtBqn7PqxY47CkyzmLzUhmHfhTCQdj9Mfad4FUF12Yu9ry5uUh5JASTcXg5Fwji5ibjUngw9LomnH6Z`
 - ETH: `0x1bdA7dB6484802DFf4945edc52363B4A8FAcb470`
 - ETC: `0x4a368bb4cd854f650169ce207268c303ffecafb2`
