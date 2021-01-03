@@ -1,31 +1,17 @@
 # ----------------------------
-# Set NAME to the program name
-# Set ICON to the png icon file name
-# Set DESCRIPTION to display within a compatible shell
-# Set COMPRESSED to "YES" to create a compressed program
+# Makefile Options
 # ----------------------------
 
-NAME        ?= $(PROJECT_NAME)
-COMPRESSED  ?= NO
-ICON        ?= icon.png
+NAME 		?= $(PROJECT_NAME)
+ICON 		?= icon.png
 DESCRIPTION ?= $(PROJECT_DESC)
+COMPRESSED 	?= NO
+ARCHIVED 	?= NO
 
-# ----------------------------
-# Other Options (Advanced)
-# ----------------------------
+CFLAGS 	 ?= -Wall -Wextra -Oz
+CXXFLAGS ?= -Wall -Wextra -Oz
 
-#EXTRA_CFLAGS        ?=
-#USE_FLASH_FUNCTIONS ?= YES|NO
-#OUTPUT_MAP          ?= YES|NO
-#ARCHIVED            ?= YES|NO
-#OPT_MODE            ?= -optsize|-optspeed
-#SRCDIR              ?= src
-#OBJDIR              ?= obj
-#BINDIR              ?= bin
-#GFXDIR              ?= src/gfx
-#V                   ?= 1
+BINDIR ?= ${BUILD_BINDIR}
+OBJDIR ?= ${BUILD_OBJDIR}
 
-BINDIR      ?= $(BUILD_BINDIR)
-OBJDIR      ?= $(BUILD_OBJDIR)
-
-include $(CEDEV)/include/.makefile
+include $(CEDEV)/meta/makefile.mk
